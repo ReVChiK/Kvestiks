@@ -1,0 +1,71 @@
+@media (max-width: 1140px){
+    .section_2 .page__container_content .quest{
+        max-width: 730px;
+        margin-right: 0;
+    }
+}
+
+@media (max-width: 992px){
+    .section_1 .page__container_header-content .header__navigation_content{
+        padding-left: 5rem;
+    }
+
+    .section_2 .page__container_content .quest{
+        max-width: unset;
+    }
+}
+
+@media (max-width: 786px){
+    .section_1 .page__container_header-content .header__navigation_content{
+        padding-left: 2rem;
+    }
+}
+
+@media (max-width: 580px){
+    .section_1 .page__container_header-content .header__menu{
+        display: block;
+    }
+    .section_1 .page__container_header-content .nav__contacts, .section_1 .page__container_header-content .nav__blogs, .section_1 .page__container_header-content .header__navigation_content-item a p{
+        display: none;
+    }
+
+    .section_2 .page__container_route, .section_2 .page__container_content .quest__payment{
+        display: none;
+    }
+
+    .section_2 .page__container_content{
+        margin-top: 0;
+    }
+
+    .section_2 .page__container_content .quest{
+        display: none;
+    }
+
+    .section_2 .page__container_content .quest__mobile_image{
+        display: block;
+    }
+
+    .section_2 .page__container_content .quest__mobile{
+        display: block;
+    }
+
+    .section_2 .page__container_reviews-title h2 sup{
+        display: none;
+    }
+
+    .section_2 .page__container_reviews .page__container_mobile-reviews__count{
+        display: block;
+    }
+
+    .section_2 .page__container_reviews-cards .cards__content .card:nth-last-child(n+2){
+        margin-right: 10px;
+    }
+
+    .section_2 .page__container_button button{
+        padding: 16px 77px;
+    }
+
+    .section_3{
+        display: block;
+    }
+}
